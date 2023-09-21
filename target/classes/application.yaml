@@ -1,0 +1,45 @@
+server:
+  port: 8761
+spring:
+  config:
+    activate:
+      on-profile: dev
+    application:
+    name: Service-Registry
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+logging:
+  file:
+    name: logs\Service-Registry-dev.log
+  level:
+    org.springframework.web: ERROR
+    org.shatooth.*: INFO
+    org.hibernate: ERROR
+---
+server:
+  port: 8761
+spring:
+  config:
+    activate:
+      on-profile: uat
+    application:
+    name: Service Registry
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+---
+server:
+  port: 8761
+spring:
+  config:
+    activate:
+      on-profile: prod
+    application:
+    name: Service Registry
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
