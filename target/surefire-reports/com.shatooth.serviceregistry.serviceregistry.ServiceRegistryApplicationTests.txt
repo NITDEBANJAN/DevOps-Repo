@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.shatooth.serviceregistry.serviceregistry.ServiceRegistryApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.915 s - in com.shatooth.serviceregistry.serviceregistry.ServiceRegistryApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.39 s - in com.shatooth.serviceregistry.serviceregistry.ServiceRegistryApplicationTests
